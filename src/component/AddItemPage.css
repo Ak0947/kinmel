@@ -1,0 +1,51 @@
+.page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cover{
+    background-color: rgba(89, 136, 175, 0);
+    width: 35em;
+    
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 0.115em rgb(54, 53, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input{
+    border: none;
+    background-color: rgba(132, 136, 136, 0.637);
+    height: 1em;
+    width: 80%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 1em;
+}
+
+input:focus{
+    outline-color: rgb(8, 8, 8);
+}
+
+.AddItem{
+    width: 40%;
+    height: 3em;
+    background-color: rgb(30, 140, 220);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.AddItem:hover{
+    transform: scale(1.05);
+}

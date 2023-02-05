@@ -23,4 +23,12 @@ export const Items=[
     price:'Rs 195',
     auctionTime:'3rd feb 5pm to 6 pm'
 },
+{
+    id: 4,
+    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy88eSDDePfS1L6CrdjIb1S0pk7j2FqW6nDw&usqp=CAU',
+    name: 'Radish',
+    quantity:'59kg',
+    price:'Rs 160',
+    auctionTime:'3rd feb 5pm to 6pm'
+}
 ]

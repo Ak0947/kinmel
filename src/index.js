@@ -4,6 +4,9 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 import App from './App'
+import LoginPage from './component/LoginPage';
+import RegistrationPage from './component/RegistrationPage';
+import AddItemPage from './component/AddItemPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
