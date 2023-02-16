@@ -14,7 +14,7 @@ export const UserProfile = () => {
   console.log(i);
   return (
     <div>
-         <h3 align='left'>Name: {Users[i].name}</h3> 
+        <h3 align='left'>Name: {Users[i].name}</h3> 
         <h3 align='left'>Email: {Users[i].Email}</h3>
         <h3 align='left'>User Name: {Users[i].username}</h3>
         <img align='left' alt='Image' src={Users[i].image}/> 
