@@ -41,9 +41,9 @@ import { Users } from "../User";
 
 function Main(){
   let id1 = localStorage.getItem("currentUserId")
- 
+  
   function Check(){
-    if (id1=='a') {
+    if (id1=='a' || id1==null) {
     return(
 
       <h1>Profile</h1>
@@ -51,7 +51,7 @@ function Main(){
   }
   else{
     return(
-      <Link to ='/User Profile'>
+    <Link to ='/User Profile'>
       <h1>{Users[id1-1].name}</h1>
     </Link>
     )
