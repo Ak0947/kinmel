@@ -13,7 +13,7 @@
     height: 35em;
     position: relative;
     border-radius: 1em;
-    box-shadow: 0 0.188em 0.115em rgb(54, 53, 53);
+    box-shadow: 0.188em 0.188em 0.188em 0.115em rgb(54, 53, 53);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +37,18 @@ input:focus{
 .login-btn{
     width: 40%;
     height: 3em;
-    background-color: rgb(30, 140, 220);
+    background-color: rgba(114, 180, 227, 0.492);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+.register-btn{
+    width: 40%;
+    height: 3em;
+    background-color: rgba(114, 180, 227, 0.492);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -47,6 +58,9 @@ input:focus{
 }
 
 .login-btn:hover{
+    transform: scale(1.05);
+}
+.register-btn:hover{
     transform: scale(1.05);
 }
 

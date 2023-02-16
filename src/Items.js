@@ -5,7 +5,9 @@ export const Items=[
     name: 'Lemon',
     quantity:'5kg',
     price:'Rs 190',
-    auctionTime:'2nd feb 5pm to 6 pm'
+    description:'very fresh and clean from Dhankuta.',
+    auctionTime:'2nd feb 5pm to 6 pm',
+    location:'Sanepa,Kathmandu'
 },
 {
     id: 2,
@@ -13,7 +15,9 @@ export const Items=[
     name: 'Oranges',
     quantity:'50kg',
     price:'Rs 186',
-    auctionTime:'5th feb 5pm to 6 pm'
+    description:'very fresh and clean from Dhankuta.',
+    auctionTime:'5th feb 5pm to 6 pm',
+    location:'Sanepa,Kathmandu'
 },
 {
     id: 3,
@@ -21,7 +25,9 @@ export const Items=[
     name: 'Carrot',
     quantity:'55kg',
     price:'Rs 195',
-    auctionTime:'3rd feb 5pm to 6 pm'
+    description:'very fresh and clean from Dhankuta.',
+    auctionTime:'3rd feb 5pm to 6 pm',
+    location:'Sanepa,Kathmandu'
 },
 {
     id: 4,
@@ -29,6 +35,30 @@ export const Items=[
     name: 'Radish',
     quantity:'59kg',
     price:'Rs 160',
-    auctionTime:'3rd feb 5pm to 6pm'
+    description:'very fresh and clean from Dhankuta.',
+    auctionTime:'3rd feb 5pm to 6pm',
+    location:'Sanepa,Kathmandu'
+}
+,
+{
+    id: 5,
+    image:'https://snaped.fns.usda.gov/sites/default/files/styles/crop_ratio_7_5/public/seasonal-produce/2018-05/cucumbers2.jpg?itok=YISLeW4e',
+    name: 'Cucumber',
+    quantity:'59kg',
+    price:'Rs 160',
+    description:'very fresh and clean from Dhankuta.',
+    auctionTime:'3rd feb 5pm to 6pm',
+    location:'Sanepa,Kathmandu'
+}
+,
+{
+    id: 6,
+    image:'https://upload.wikimedia.org/wikipedia/commons/f/fe/Spinach_leaves.jpg',
+    name: 'Saag',
+    quantity:'59kg',
+    price:'Rs 160',
+    description:'very fresh and clean from Dhankuta.',
+    auctionTime:'3rd feb 5pm to 6pm',
+    location:'Sanepa,Kathmandu'
 }
 ]
